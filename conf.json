@@ -1,0 +1,27 @@
+{
+    "extensions": {
+        "enabled": [
+            "python_venv",
+            "blocks"
+        ]
+    },
+    "core": {
+        "name": "test",
+        "version": "1.0.0",
+        "summary": "test",
+        "license": "test"
+    },
+    "python_venv": {
+        "name": "test_venv",
+        "path": "usr/share/test",
+        "python": "python2.7",
+        "requirements": [
+            "requirements.txt"
+        ]
+    },
+    "blocks": {
+        "desc": [
+            "test"
+        ]
+    }
+}
